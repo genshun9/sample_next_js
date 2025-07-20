@@ -32,6 +32,7 @@ npx create-next-app@latest
         - 実行環境がNode.js
         - 指定方法はデフォルト
         - bundle size削減やDB周りの適応時に使えそう
+        - 初期ロード時、サーバー上でレンダリングされるので、パフォーマンス改善やSEOに強いらしい
     - 他
         - Server → Clientへのprops橋渡しが可能
         - Client → Serverの直接importは不可
